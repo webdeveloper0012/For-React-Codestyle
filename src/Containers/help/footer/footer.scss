@@ -1,0 +1,233 @@
+.footer {
+  .center-footer {
+    background-color: transparent !important;
+    max-width: 1080px !important;
+    padding: 24px !important;
+
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 1.2857142857142858em !important;
+    color: #484848 !important;
+
+    .page-link-footer-section {
+      margin-left: -8px !important;
+      margin-right: -8px !important;
+
+      &::before {
+        content: ' ' !important;
+        display: table !important;
+      }
+
+      &::after {
+        content: ' ' !important;
+        display: table !important;
+        clear: both !important;
+      }
+
+      .page-link-part-section {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        min-height: 1px !important;
+        position: relative !important;
+        width: 100% !important;
+        float: left !important;
+
+        .page-link-part-caption {
+          margin: 10px 0px 0px 0px !important;
+          padding: 0px !important;
+          display: block;
+          margin-block-start: 1.33em;
+          margin-block-end: 1.33em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          font-weight: bold;
+          overflow-wrap: break-word !important;
+          font-size: 14px !important;
+          font-weight: 800 !important;
+          line-height: 1.28571em !important;
+          color: rgb(72, 72, 72) !important;
+        }
+
+        .page-link-part-items {
+          margin-bottom: 0px !important;
+          margin-top: 16px !important;
+          padding-left: 0px !important;
+          list-style: none !important;
+
+          .page-link-part-item {
+            margin-bottom: 4px !important;
+            display: list-item;
+            text-align: -webkit-match-parent;
+
+            .page-link-part-item-a {
+              font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+              color: #767676 !important;
+              text-align: left !important;
+              text-decoration: none !important;
+
+              &:hover {
+                text-decoration: underline !important;
+              }
+            }
+
+            .page-link-item-new-cover-span {
+              display: inline-block !important;
+              margin-left: 8px !important;
+              margin-right: -20px !important;
+              line-height: 1 !important;
+
+              .page-link-item-new-span {
+                display: inline-block !important;
+                background-color: rgb(0, 106, 112) !important;
+                border-width: 1px !important;
+                border-style: solid !important;
+                border-color: transparent !important;
+                border-image: initial !important;
+                border-radius: 4px !important;
+                padding: 0px 4px !important;
+
+                .page-link-item-text {
+                  overflow-wrap: break-word !important;
+                  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif !important;
+                  font-size: 12px !important;
+                  font-weight: 600 !important;
+                  line-height: 1.33333em !important;
+                  color: rgb(255, 255, 255) !important;
+                  margin: 0px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      @media (min-width: 444px) {
+        .page-link-part-section {
+          width: 50% !important;
+          float: left !important;
+        }
+      }
+
+      @media (min-width: 744px) {
+        .page-link-part-section {
+          width: 25% !important;
+          float: left !important;
+        }
+      }
+    }
+
+    .global-link-footer-section {
+      align-content: center !important;
+      display: flex !important;
+
+      .airbnb-link-footer-section {
+        flex: 1 1 auto !important;
+
+        .airbnb-link-padding-section {
+          padding-top: 1px !important;
+          display: flex !important;
+
+          .airbnb-link-item-section {
+            display: inline-flex !important;
+            align-self: center !important;
+
+            div {
+              .airbnb-link-span {
+                overflow-wrap: break-word !important;
+                font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif !important;
+                font-size: 14px !important;
+                font-weight: 600 !important;
+                line-height: 1.28571em !important;
+                color: rgb(118, 118, 118) !important;
+                margin: 0px !important;
+              }
+
+              .airbnb-terms-privacy {
+                display: none !important;
+              }
+
+              @media (min-width: 744px) {
+                .airbnb-terms-privacy {
+                  display: inline-block !important;
+                  margin-left: 8px !important;
+
+                  overflow-wrap: break-word !important;
+                  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', sans-serif !important;
+                  font-size: 14px !important;
+                  font-weight: 600 !important;
+                  line-height: 1.28571em !important;
+                  color: rgb(118, 118, 118) !important;
+                  margin: 0px !important;
+
+                  .airbnb-term-link {
+                    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+                    color: #767676 !important;
+                    text-align: left !important;
+                    color: rgb(118, 118, 118) !important;
+                    text-decoration: none !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .social-link-footer-section {
+        display: none !important;
+      }
+
+      @media (min-width: 744px) {
+        .social-link-footer-section {
+          display: block !important;
+          margin-right: -8px !important;
+          white-space: nowrap !important;
+          flex: 0 0 auto !important;
+        }
+      }
+    }
+
+    @media (min-width: 744px) {
+      .global-link-footer-section {
+        margin-top: 16px !important;
+        padding-top: 16px !important;
+        border-top: 1px solid rgb(235, 235, 235) !important;
+      }
+    }
+  }
+
+  @media (min-width: 744px) {
+    .center-footer {
+      padding-top: 16px !important;
+      padding-bottom: 16px !important;
+    }
+  }
+
+  @media (min-width: 1128px) {
+    .center-footer {
+      position: relative !important;
+      margin: 0px auto !important;
+    }
+  }
+}
+
+.social-link-button {
+  display: inline-block !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  vertical-align: middle !important;
+
+  .social-link-hypera {
+    cursor: pointer !important;
+    background-color: transparent !important;
+    color: black !important;
+    border: 0px !important;
+    display: block !important;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+}
